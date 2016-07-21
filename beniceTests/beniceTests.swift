@@ -25,6 +25,9 @@ class beniceTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssert(true, "be nice :-)")
+        let undertest = Person()
+        XCTAssertNotNil(undertest.fullName(), "expect that the string is not empty")
+        XCTAssertEqual(undertest.fullName(), "Hello Norman Sutorius")
     }
     
     func testPerformanceExample() {

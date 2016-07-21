@@ -14,6 +14,8 @@
 		948ADBD91D41534100F15054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948ADBD71D41534100F15054 /* LaunchScreen.storyboard */; };
 		948ADBE41D41534100F15054 /* beniceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948ADBE31D41534100F15054 /* beniceTests.swift */; };
 		948ADBEF1D41534100F15054 /* beniceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948ADBEE1D41534100F15054 /* beniceUITests.swift */; };
+		948ADBFD1D41573800F15054 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948ADBFC1D41573800F15054 /* Person.swift */; };
+		948ADBFF1D4158BE00F15054 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948ADBFC1D41573800F15054 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		948ADBEA1D41534100F15054 /* beniceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beniceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		948ADBEE1D41534100F15054 /* beniceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beniceUITests.swift; sourceTree = "<group>"; };
 		948ADBF01D41534100F15054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948ADBFC1D41573800F15054 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				948ADBD51D41534100F15054 /* Assets.xcassets */,
 				948ADBD71D41534100F15054 /* LaunchScreen.storyboard */,
 				948ADBDA1D41534100F15054 /* Info.plist */,
+				948ADBFC1D41573800F15054 /* Person.swift */,
 			);
 			path = benice;
 			sourceTree = "<group>";
@@ -256,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948ADBFD1D41573800F15054 /* Person.swift in Sources */,
 				948ADBD11D41534100F15054 /* ViewController.swift in Sources */,
 				948ADBCF1D41534100F15054 /* AppDelegate.swift in Sources */,
 			);
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948ADBFF1D4158BE00F15054 /* Person.swift in Sources */,
 				948ADBE41D41534100F15054 /* beniceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
