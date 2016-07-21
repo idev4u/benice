@@ -28,6 +28,7 @@ class beniceTests: XCTestCase {
         let undertest = Person(initWith: "Norman", pSurname: "Sutorius")
         XCTAssertNotNil(undertest.fullName(), "expect that the string is not empty")
         XCTAssertEqual(undertest.fullName(), "Hello Norman Sutorius")
+        XCTAssertEqual(undertest.beNiceMessage(), "Hello Norman Sutorius, nice to see you.")
     }
     
     func testPerformanceExample() {

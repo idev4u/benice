@@ -22,4 +22,8 @@ class Person{
     func fullName() -> String {
         return "Hello \(name) \(surename)"
     }
+    
+    func beNiceMessage()->String {
+        return "Hello \(name) \(surename), nice to see you."
+    }
 }
