@@ -8,12 +8,18 @@
 
 import Foundation
 
-class Person {
+class Person{
     
-    var name = "Norman"
-    var surname = "Sutorius"
+    var name: String
+    var surename: String
+    
+    init(initWith pName: String, pSurname: String){
+        name = pName
+        surename = pSurname
+    }
+    
     
     func fullName() -> String {
-        return "Hello \(name) \(surname)"
+        return "Hello \(name) \(surename)"
     }
 }
